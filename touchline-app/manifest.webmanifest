@@ -1,0 +1,21 @@
+{
+  "name": "Touchline — FPL projection model",
+  "short_name": "Touchline",
+  "description": "Fantasy Premier League projections, fixture difficulty, rotation planning and squad rating.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10231C",
+  "theme_color": "#10231C",
+  "categories": ["sports", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Rate my team", "url": "./index.html#rate" },
+    { "name": "Fixture difficulty", "url": "./index.html#fdr" }
+  ]
+}
